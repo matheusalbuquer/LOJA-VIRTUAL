@@ -1,0 +1,40 @@
+Requisitos Funcionais:
+
+1- Cadastro de empresa.
+2- Cadastro de usuário(Gerencia o sistema).
+3- Gerenciamento de acesso.
+4- Cadastro de categorias de produtos.
+5- Cadastro de produtos.
+6- Cadastro de cliente.
+7- Cadastro de fornecedor.
+8- Contas a receber. 
+9- Contas a pagar.
+10- Realizar vendas.
+11- Item de venda.
+12- Gerenciamento de estoque.
+13- Fluxo de caixa.
+14- Abertura e fechamento de caixa.
+15- Integração com logística.
+16- Controle de estoque.
+17- Histórico de compras.
+18- Vender com boleto, pix , cartão.
+19- Cadastro de formas de pagamento.
+20- Cadastro de forma de pagamento.
+21- Cliente cadastrou com o Facebook ou Google
+22- Envio de ofertas da loja por e-mail.
+23- Cadastro de cupons de descontos.
+24- Relatório de produtos em evidencia (Mais clicados, mais comprados,favoritos) .
+25- Relatório de estoque baixo (Reposição).
+26- Mapear vendas de produtos por região.
+27- Nota fiscal do cliente.
+28- Lembrete carrinho abandonado.
+29- Relatório de compra cancelada.
+30- Relatório de carrinho/checkout abandonado.
+31- Chat do cliente com o suporte.
+32- Recuperação de senha.
+33- Avaliação de produto.
+34- Devolução/Troca de produtos.
+35- Calculo de frete.
+36- Cadastro de marcas.
+37- Relatórios por marcas.
+38- Pesquisar sobre: Melhor envio.
