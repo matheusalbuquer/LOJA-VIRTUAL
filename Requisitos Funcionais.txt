@@ -44,40 +44,122 @@ Requisitos Funcionais e Requisitos não funcionais:
   Informado a quantidade de estoque.
   Informar os gerentes/usuário do sistema que o produto está com o estoque baixo.
   Poder cadastrar um quantidade de estoque baixo para dar alerta.
-  Validar o estoque antes da venda para ver se possível vender.
+  Validar o estoque antes da venda para ver se possível vender.(Na venda)
+  Poder cadastrar um vídeo do Youtube(Link).
 
 
 • Cadastro de cliente.
+   Dados de endereço completo, podemos usar para facilitar o via cep.
+   O cliente sempre deverá ter um login e senha.
+   Nome, CPF, Telefone, e-mail.
 
 • Contas a receber. 
+   Clientes geram boleto.
+   Entra todas as vendas e valores de produtos vendidos.
+   
+ 
 • Contas a pagar.
+   Ex: Pagar os fornecedores de produtos.
+   Entra com os dados da nota fiscal de produtos.
+   Associar ao vendedor.  
+   Campo para informar o valor total.
+   Campo para informar a data de vencimento.
+   Campo para informar descontos. 
+   Campo para informar a forma de pagamentos(Cheque, PIX , cartão).
+   Se a venda for por boleto então o estoque deve ser baixado quando o sistema receber todo o pagamento.
+   O responsável pela loja virtual recebe o e-mail de venda realizada.
+
 • Realizar vendas.
+   O cliente informa os dados básico , nome, CPF, e-mail, telefone.
+   (Cliente cadastrou com o Facebook ou Google
+    Essa autenticação e feita com Auth2)
+   O cliente informa o cep e p endereço completo de entrega.
+   Pode ter a opção de informar o cupom de desconto.
+   Obrigatório informar o numero da casa ou prédio
+   Seleciona a forma de pagamento(Cartão, boleto, PIX , API DE PAGEMENTO).
+   Deve ser feito o calculo do frete de acordo com o cep do cliente.
+   O valor do frete deve ser incluído na venda.
+   Mostrar para o cliente o numero de dias que o produto demora para ser entregue.
+   Finaliza a venda.
+   Dar baixo no estoque de todos pedidos comprados, após autorização de cobrança do cartão.
+   Envia e-mail para o cliente dizendo que a compra foi finalizada, enviar numero do pedido.
+   
+
 • Item de venda.
+  Ligado com o produto.
+  Será salvo no banco a quantidade que foi vendida.
+
 • Gerenciamento de estoque.
+  Atualizar o estoque do produto e forma manual pela tela do cadastro de produto.  
+  Atualizar a quantidade de produto quando cadastrar uma nota fiscal de produtos para loja.
+
+• Cadastro de formas de pagamento.
+  Cadastrar forma em texto(cheque ,boleto , pix, cartão, PIX, transferência).
+
+• Envio de ofertas da loja por e-mail.
+  (GetResponse e-mail marketing).
+  
+• Cadastro de cupons de descontos.
+  No cadastro de cupom deve ser informado a descrição do cupom  e o valor de desconto.
+
+• Histórico de compras.
+  Relatório das compras de produtos feitas com o fornecedores da loja virtual.
+  Intervalo de datas.
+
+• Relatório de produtos vendidos.
+  Relatório de produtos vendidos pela loja virtual.
+  Ter a opção de intervalo de datas.
+  Podem informar um descrição de produto
+
+• Nota fiscal do cliente.
+  Enviar nota fiscal do cliente para o e-mail dele após ser recebido o pagamento da venda.
+
+• Recuperação de senha.
+  O cliente deve informar o e-mail e a senha deve ser enviada para o e-mail dele.
+
+• Chat do cliente com o suporte.
+  Para ter um chat profissional vamos usar o JivoChat.
+
+• Cadastro de marcas
+  Deve ser informada a descrição da marca do produto.
+
+• Relatório de estoque baixo (Reposição).
+  Pode ter i relatório por intervalo de datas.
+  Poder selecionar o produto para imprimir o relatório 
+
+• Devolução/Troca de produtos.
+
+• Avaliação de produto.
+  O cliente deve estar logado.
+  O cliente deve ter comprado o produto
+  O cliente pode escrever a avaliação do produto em nossa pagina.
+  Depois do recebimento do produto será envido um e-mail de peido de uma avaliação do produto.
+
+• Relatório de compra cancelada.
+  Esse relatório serve para a equipe da loja virtual entrar em contato com os clientes para finalizar a compra e porque o cliente teve problema para finalizar a
+  compra e porque a compra foi cancelada.
+
+
+• Relatório de carrinho/checkout abandonado.
+  Esse relatório é para a equipe entrar em conato com o cliente para finalizar a compra
+
+• Integração com logística.
+  Vamos usar o correios ou API de logística.
+
+• Relatório de produtos em evidencia (Mais clicados, mais comprados , favoritos) .
+  Gravar a quantidade de clicks que a pessoa da em cima ado produto.
+
 • Fluxo de caixa.
 • Abertura e fechamento de caixa.
-• Integração com logística().
 • Controle de estoque.
-• Histórico de compras.
 • Vender com boleto, pix , cartão.
-• Cadastro de formas de pagamento.
 • Cadastro de forma de pagamento.
-• Cliente cadastrou com o Facebook ou Google
-• Envio de ofertas da loja por e-mail.
-• Cadastro de cupons de descontos.
-• Relatório de produtos em evidencia (Mais clicados, mais comprados , favoritos) .
-• Relatório de estoque baixo (Reposição).
+
 • Mapear vendas de produtos por região.
-• Nota fiscal do cliente.
 • Lembrete carrinho abandonado.
-• Relatório de compra cancelada.
-• Relatório de carrinho/checkout abandonado.
-• Chat do cliente com o suporte.
-• Recuperação de senha.
-• Avaliação de produto.
-• Devolução/Troca de produtos.
-• Calculo de frete.
-• Cadastro de marcas.
+
+
+
 • Relatórios por marcas.
 
 • Pesquisar sobre: Melhor envio.
