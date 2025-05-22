@@ -29,7 +29,7 @@ Requisitos Funcionais e Requisitos não funcionais:
 
 • Cadastro de produtos.
   Nome do produto.
-  Deve ser informado o tipo da unidade (UN,Peça,Kilo).
+  Deve ser informado o tipo da unidade (UN ,Peça , KG).
   Não deixar cadastrar produto com nome igual.
   Ao cadastrar o produto é obrigatório associar uma categoria.
   Não permitir cadastrar produtos com menos de 10 letras.
@@ -59,7 +59,7 @@ Requisitos Funcionais e Requisitos não funcionais:
    
  
 • Contas a pagar.
-   Ex: Pagar os fornecedores de produtos.
+   Exemplo: Pagar os fornecedores de produtos.
    Entra com os dados da nota fiscal de produtos.
    Associar ao vendedor.  
    Campo para informar o valor total.
@@ -94,10 +94,10 @@ Requisitos Funcionais e Requisitos não funcionais:
   Atualizar a quantidade de produto quando cadastrar uma nota fiscal de produtos para loja.
 
 • Cadastro de formas de pagamento.
-  Cadastrar forma em texto(cheque ,boleto , pix, cartão, PIX, transferência).
+  Cadastrar forma em texto(cheque ,boleto , cartão, PIX, transferência).
 
 • Envio de ofertas da loja por e-mail.
-  (GetResponse e-mail marketing).
+  (GETRESPONSE e-mail marketing).
   
 • Cadastro de cupons de descontos.
   No cadastro de cupom deve ser informado a descrição do cupom  e o valor de desconto.
@@ -118,7 +118,7 @@ Requisitos Funcionais e Requisitos não funcionais:
   O cliente deve informar o e-mail e a senha deve ser enviada para o e-mail dele.
 
 • Chat do cliente com o suporte.
-  Para ter um chat profissional vamos usar o JivoChat.
+  Para ter um chat profissional vamos usar o JIVOCHAT.
 
 • Cadastro de marcas
   Deve ser informada a descrição da marca do produto.
@@ -152,7 +152,7 @@ Requisitos Funcionais e Requisitos não funcionais:
 • Fluxo de caixa.
 • Abertura e fechamento de caixa.
 • Controle de estoque.
-• Vender com boleto, pix , cartão.
+• Vender com boleto, PIX , cartão.
 • Cadastro de forma de pagamento.
 
 • Mapear vendas de produtos por região.
